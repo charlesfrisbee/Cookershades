@@ -1,0 +1,19 @@
+div {
+    text-align: justify;
+}
+
+div img {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+
+div:after {
+    content: '';
+    display: inline-block;
+    width: 70%;
+}
+
+.image:hover  {
+  opacity: 0.3;
+}
